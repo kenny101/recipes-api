@@ -1,5 +1,6 @@
 # Recipes-API
-An API with a large collection of recipes collected from youtube videos. The each property of a JSON object includes the video's title, image url, list of ingredients as a string, video url, and unique id. 
+
+An API with a large collection of recipes collected from youtube videos. The each property of a JSON object includes the video's title, image url, list of ingredients as a string, video url, and unique id.
 
 - [API Endpoint URL Here](https://recipes-database-api.herokuapp.com/yt-recipes)
 
@@ -9,6 +10,26 @@ An API with a large collection of recipes collected from youtube videos. The eac
 
 - Hosted with Heroku: https://recipes-database-api.herokuapp.com/
 
+# Dependencies:
+```bash
+npm install node-fetch
+```
 
-# Example of JSON Data: 
+# Example Code Snippet:
+
+```js
+const fetch = require("node-fetch");
+const api_url = "https://recipes-database-api.herokuapp.com/yt-recipes";
+
+fetch(api_url)
+  .then(function (res) {
+    return res.json();
+  })
+  .then(function (data) {
+    console.log(data);
+  });
+```
+
+# Example of JSON Data:
+
 ![Figure 1-1](example.jpg)
