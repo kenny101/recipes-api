@@ -5,6 +5,8 @@ An API with a large collection of recipes collected from youtube videos. The eac
 
 - [Here's the script I made to collect this data](https://github.com/kenny101/Youtube-Recipes-Dataset-with-Ingredients)
 
+- RESTful API created using: https://github.com/typicode/json-server
+
 
 # Example of JSON Data: 
 ![Figure 1-1](example.jpg)
