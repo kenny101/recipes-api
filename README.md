@@ -7,6 +7,8 @@ An API with a large collection of recipes collected from youtube videos. The eac
 
 - RESTful API created using: https://github.com/typicode/json-server
 
+- Hosted with Heroku: https://recipes-database-api.herokuapp.com/
+
 
 # Example of JSON Data: 
 ![Figure 1-1](example.jpg)
