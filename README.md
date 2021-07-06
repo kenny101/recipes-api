@@ -4,7 +4,7 @@ An API with a large collection of recipes collected from youtube videos. Each pr
 
 - API Endpoint URL Here: https://recipes-database-api.herokuapp.com/yt-recipes
 
-- Here's the script I made to collect this data: https://github.com/kenny101/Youtube-Recipes-Dataset-with-Ingredients
+- The script I made to collect this data: https://github.com/kenny101/Youtube-Recipes-Dataset-with-Ingredients
 
 - RESTful API created using: https://github.com/typicode/json-server
 
